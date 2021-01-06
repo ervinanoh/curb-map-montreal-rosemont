@@ -286,10 +286,10 @@ class Map extends React.Component<PageProps, {}> {
       //        latitude:  39.950,
       //        longitude:-75.174, //-71.20566699900684,46.81214413176751 - QUEBEC
       //        zoom: 16
-      // PDX viewport 
-      latitude: 46.81214413176751,
-      longitude: -71.20566699900684,
-      zoom: 15
+      // PDX viewport , 
+      latitude: 45.5549092129897, 
+      longitude: -73.58085798491342,
+      zoom: 13
     }
   };
 
@@ -585,7 +585,7 @@ class Map extends React.Component<PageProps, {}> {
 
         <Card
           size="small"
-          title="Stationnements Québec, QC"
+          title="Stationnements Montréal - Rosemont, QC"
           bordered={true}
           style={{
             position: "fixed",
@@ -739,7 +739,7 @@ class Map extends React.Component<PageProps, {}> {
         <Button
           size="small"
           type="primary" 
-          href="https://wiki.lafabriquedesmobilites.fr/wiki/Carte_CurbLR_de_la_ville_de_Qu%C3%A9bec"
+          href="https://wiki.lafabriquedesmobilites.fr/wiki/Carte_CurbLR_de_Montr%C3%A9al"
           style={{
             position: "fixed",
             bottom: "40px",
